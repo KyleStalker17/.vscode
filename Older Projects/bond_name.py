@@ -1,28 +1,15 @@
-from turtle import title
+# The other day, I was really in trouble. It all started when I saw a very
+# [adjective] [animal] [verb] down the hallway. "[exclamation]!" I yelled. But all
+# I could think to do was to [verb] over and over. Miraculously,
+# that caused it to stop, but not before it tried to [verb]
+# right in front of my family.
 
 
-first = input("What's your first name? ");
-last = input("What's your last name? ");
-jTitle = input("Please enter your job title ")
-idNumber = input("Please input your Identification Number ")
-email = input("Please input your E-mail ")
-Phone = input('Please enter your Phone Number ')
-eyeColor = input('Eye Color? ')
-hairColor = input("Hair Color ") 
-month = input('Which month did you start working for us? ')
-training = input('Have you completed advanced training? ')
+adj1 = input("Adjective? ");
+animal = input("Animal? ");
+Ver1 = input("verb?")
+exc = input("Exclamation?")
+Ver2 = input('Verb?')
+Ver3 = input('Verb? ')
 
-print()
-print("-----------------------------------")
-print(last.upper(),',',first.capitalize())
-print(jTitle.title())
-print('ID:',idNumber)
-print()
-print(email.lower())
-print(Phone)
-print()
-print('Eye Color:',eyeColor,'     ','Hair Color:',hairColor)
-print('month:',month,'     ','Training:',training)
-print('---------------------------------------------')
-
-
+print('The other day, I was really in trouble. It all started when I saw a very',adj1,animal,Ver1,'down the hallway.' ,exc, 'I yelled. But all I could think to do was to',Ver2,'over and over. Miraculously,that caused it to stop, but not before it tried to',Ver3,'right in front of my family.')
