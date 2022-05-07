@@ -1,128 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Site Plan</title>
-  <link type="text/css" rel="stylesheet" href="styles/site-plan-rafting.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dry Oar Rafting | Homepage</title>
 </head>
-
 <body>
   <header>
-    <h1>Hog Wild Rafting Co. Site Plan</h1>
-    <h2>Kyle Stalker</h2>
-    <h2>WDD 130-07</h2>
-    <!-- In the header above, add the name of your site, your name and class number. For example if you are in section 3 you would put WDD 130-03 -->
+    <a id="logo_link" href="index.html">
+    <img src = "Dry Oar Logo.png" alt= Dry Oar Logo>
+  </a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#">Page Two</a>
+    <a href="site-plan-rafting.html">Site Plan</a>
+    <a href="contactus.html">Contact Us</a>
+  </nav>
   </header>
-  <main>
-    <!-- ------------------------Steps 2-5------------------------------ -->
-    <hr />
-    <h2>Overview</h2>
-    <h3>Purpose</h3>
-    <p>To advertise for the Hog Wild Rafting Company.</p>
-    <!-- change this -->
-
-    <h3>Audience</h3>
-    <p>People who are 20-30 and looking for adventure</p>
-    <!-- change this -->
-
-    <hr />
-    <h2>Branding</h2>
-    <h3>Website Logo</h3>
-    <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-    <img src="Hog Wild Logo.png" alt="Logo image" />
-    <hr />
-    <h2>Style Guide</h2>
-
-    <!-- ------------------------Steps 6-9------------------------------ -->
-
-    <h3>Color Palette</h3>
-    <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in Canvas then return and replace the color codes below with the hex color codes (the 6 digit numbers that show at the bottom of each color) for the colors you have chosen below.  You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
-
-    <!-- Copy and paste the URL to your finished palette below. Replace the href value that is there with yours. Make sure to paste it into both the href value and the content text of the <a> tag -->
-    <p>Palette URL:</p>
-    <a href="https://coolors.co/04e762-f5b700-00a1e4-232ed1-89fc00"
-      target="_blank">https://coolors.co/04e762-f5b700-00a1e4-232ed1-89fc00</a>
-
-    <table class="colors">
-      <tr>
-        <th>Primary</th>
-        <th>Secondary</th>
-        <th>Accent 1</th>
-        <th>Accent 2</th>
-      </tr>
-      <!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
-      <tr>
-        <td class="primary">[#04e762]</td>
-        <td class="secondary">[#00A1E4]</td>
-        <td class="accent1">[#f5b700]</td>
-        <td class="accent2">[#ffffff]</td>
-      </tr>
-    </table>
-
-    <!-- ------------------------Steps 10-12------------------------------ -->
-
-    <h3>Typography</h3>
-    <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Think also about which of your colors above you might use for background and font colors. -->
-
-    <h4>
-      Heading Font: Palatino Linotype
-      <!-- change this -->
-    </h4>
-    <h4>
-      Paragraph Font: Garamond
-      <!-- change this -->
-    </h4>
-    <h3>Normal paragraph example</h3>
-    <p>
-      The best Whitewater Rafting in Colorado, Hog Wild Rafting Co.
-      offers rafting on the Colorado and Roaring Fork Rivers in Glenwood
-      Springs. Since 1974, we have been family owned and operated, rafting the
-      Shoshone section of Glenwood Canyon and beyond.
-    </p>
-    <h3>Colored paragraph example</h3>
-    <p class="colored">
-      Trips vary from mild and great for families, to trips exclusively for
-      physically fit and experienced rafters. No matter what type of river
-      adventures you are seeking, Hog Wild Rafting Co. can make it
-      happen for you.
-    </p>
-
-    <!-- ------------------------Step 13------------------------------ -->
-
-    <h3>Navigation</h3>
-    <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Page2</a>
-      <a href="#">Contact Us</a>
-    </nav>
-    <hr />
-    <h2>Site Map</h2>
-    <div class="sitemap">
-      <div class="sm-home">Home</div>
-      <div class="sm-page2">
-        [Page2]
-        <!-- this page will have a name later -->
+  <div id="hero">
+      <div id ="hero-box">
+        <img id="hero-img" src="Images/hero.png" alt="Our River"
       </div>
-      <div class="sm-page3">Contact Us</div>
-
-      <div class="top">&nbsp;</div>
-      <div class="left">&nbsp;</div>
-      <div class="right">&nbsp;</div>
-    </div>
-    <hr />
-    <h2>Wireframes</h2>
-    <!-- Create an additional wireframe for your site. List it here below the Home page wireframe. -->
-
-    <h3>Home</h3>
-
-    <img src="https://byui-wdd.github.io/wdd130/rafting_images/wireframe_home.png" alt="home page wireframe" />
-
-    <h3>[Page 2]</h3>
-
-    <!-- <img src="#" alt="page 2 wireframe"> -->
+      <section id="'hero-msg">
+        <h1 class="home-title">Come Adventure with Us</h1>
+        <h4>Life is better on the river with Dry Oar</h4>
+        <div class="button-box">
+          <a clas="button-box">Book Now</a>
+        </div>
+      </section>
+  </div>
+  <main class="home-grid">
+    <section class="rivers-card">
+      <img class="card-img" src="images/rivers.jpg" alt="Rivers in Forests">
+      <img class="icon" src ="images/river_icon.jpg" alt ="river icon"
+      <h2>Rivers</h2>
+    </section>
+    <section class="camping-card">
+      <img class="card-img" src="images/camping.jpg" alt="Tent in the Mountains">
+      <img class="icon" src ="images/fire_icon.jpg" alt ="fire icon"
+      <h2>Camping</h2>
+    </section>
+      <section class="rapids-card">
+        <img class="card-img" src="images/rapids.jpg" alt="Rafting Boat">
+        <img class="icon" src ="images/rapids_icon.jpg" alt ="rapids icon"
+        <h2>Rapids</h2>
+      </section>
+      <h2>More than Just a Thrill</h2>
+      <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
+      <a class = 'join' href="rivers.html">Join Us</a>
   </main>
+  <footer>
+    <h3>Dry Oar &copy; 2022- Kyle Stalker</h3>
+    <h3><a href='site-plan-rafting.html">Site Plan</a></h3>
+    <h3><a href='contactus.html'>Conatact Us</a></h3>
+    <div class="Social">
+      <a href="https://facebook.com">
+        <img src="images/facebook.png" alt="FB logo">
+      </a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.png" alt="twitter logo">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/insta.png" alt="insta logo">
+      </a>
+    </div>
+  </footer>
 </body>
-
 </html>
