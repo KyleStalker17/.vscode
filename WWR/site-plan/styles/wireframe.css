@@ -1,0 +1,95 @@
+body{
+    max-width:100%;
+   margin:0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+     padding:0;
+
+}
+.logo{
+    max-width:20px;
+    display:block;
+}
+.colored-background{
+color:rgb(162, 14, 14);
+background-color:aquamarine;
+font-size:20px;
+line-height:1.5;
+}
+.main{
+    background-color:black;
+    color:white;
+    max-width: 100%;
+    margin:auto;
+    text-align:center;
+    text-decoration:none;
+}
+
+.header{
+background-color:blue;
+}
+.nav_bar a{
+    display:inline;
+    flex-wrap:nowrap;
+    overflow-wrap: unset;
+    text-decoration:overline;
+    border:10px;
+}
+
+.nav_bar{
+    display: inline;
+    flex-wrap:nowrap;
+    text-decoration:none;
+    overflow-wrap:;
+    display:block;
+    float:center;
+    height: 100px;
+    font-size: 60px;
+    max-width: 100%;
+    color:black;
+    background-color:yellow ;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.nav_bar a:hover{
+    background-color: black;
+    color:yellow;
+}
+.book{
+    max-width:100%;
+    min-height:100px;
+    text-align:center;
+    vertical-align: center;
+    font-size:75px;
+    background-color: rgb(187, 217, 135);
+color:rgb(23, 158, 158);
+}
+.book:hover{
+color:rgb(126, 240, 240);
+background-color: blue;
+}
+.join{
+    max-width:1080px;
+    min-block-size:80px;
+    background-color:yellow;
+    color:seagreen;
+    font-size:60px;
+    text-decoration:none;
+    border-radius:40px;
+
+}
+.join:hover{
+    background-color: teal;
+    color:chartreuse;
+}
+.msg{
+    background-color: yellow;
+}
+.footer{
+    background-color:rgb(20, 206, 175) ;
+}
+.logo{
+    max-width:80px
+}
+.icon{
+    width:80px;
+}
